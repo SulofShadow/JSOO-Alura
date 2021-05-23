@@ -2,7 +2,7 @@ export class Cliente{
     nome;
     _cpf;
 
-    // Usamos apenas o 'get' para não podermos atrivbui-lá fora da classe
+    // Usamos apenas o 'get' para não podermos atribuir-lo fora da classe
     get cpf(){
         return this._cpf;
     }
